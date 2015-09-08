@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BrandTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2015-09-08T00:28:10" hostname="chitraphp" time="0.686">
+  <properties/>
+  <testcase name="equals_returnsTrueIfNamesAretheSame" classname="BrandTest" time="0.055"/>
+  <testcase name="all_emptyAtFirst" classname="BrandTest" time="0.015"/>
+  <testcase name="getStores_returnsAllStores_ArrayList" classname="BrandTest" time="0.206"/>
+  <testcase name="save_savesIntoDatabase_true" classname="BrandTest" time="0.095"/>
+  <testcase name="addStore_addsStoreToBrand" classname="BrandTest" time="0.214"/>
+  <testcase name="find_findBrandInDatabase_true" classname="BrandTest" time="0.099"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

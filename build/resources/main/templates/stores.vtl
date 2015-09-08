@@ -1,0 +1,20 @@
+<h1>Store list!</h1>
+
+<p>Add a new Store:</p>
+
+<form action="/stores" method="post">
+  <label for="name">Store Name</label>
+  <input id="name" name="name" type="text">
+
+
+
+  <button type="submit">Add store</button>
+</form>
+
+#foreach ($store in $stores)
+  <li><a href="/stores/$store.getId()">$store.getName()</a>
+
+    </li>
+#end
+
+<p><a href='/'>Home</a></p>

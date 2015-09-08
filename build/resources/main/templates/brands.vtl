@@ -1,0 +1,16 @@
+<h1>Brands list!</h1>
+
+<p>Add a new brand:</p>
+
+<form action="/brands" method="post">
+  <label for="description">Brand Name</label>
+  <input id="description" name="description" type="text">
+
+  <button type="submit">Add brand</button>
+</form>
+
+#foreach ($brand in $brands)
+  <li><a href="/brands/$brand.getId()">$brand.getDescription()</a></li>
+#end
+
+<p><a href='/'>Home</a></p>
